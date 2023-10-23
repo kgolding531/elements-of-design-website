@@ -1,0 +1,97 @@
+body, html {
+	font-family: Arial,Helvetica,freesans,sans-serif;
+	line-height: 2.0;
+	font-size: 17px;
+	background-color: #FBE0C3;
+}
+
+::selection {
+	background-color: yellow;
+	color: #CA0066;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 30px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 10px 10px;
+}
+
+tr:nth-child(even) {
+	background-color: #C7D3E1;
+}
+
+tr:hover {
+	background-color: #CCCCCC;
+}
+
+th {
+	font-size: 18px;
+}
+
+table {
+	width: 100%;
+}
+
+caption {
+	padding: 15px;
+}
+
+a:link {
+  color: #CA00CA;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  background-color: transparent;
+  text-decoration: none;
+}
+	
+a:hover {
+  color: #CA0066;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+strong {
+	color: #CA00CA;
+}
+
+						/* CLASSES */
+.emphasis {
+	text-color: yellow;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+.centered {
+	line-height: 1.5;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 40px;
+}
+
+.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  with: 50%;
+}
